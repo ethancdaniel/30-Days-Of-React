@@ -1,23 +1,11 @@
-// index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
 // To get the root element from the HTML document
 import asabenehImage from './images/asabeneh.jpg'
-
-// to import the doSomeMath from the math.js with or without extension
-import doSomeMath from './math.js'
-
-// to import the other modules
-// since these modules were not exported as default we have to desctructure
-import { addTwo, multiply, subtract } from './math.js'
-
-import * as everything from './math.js'
-console.log(addTwo(5, 5))
-console.log(doSomeMath.addTwo(5, 5))
-console.log(everything)
-// JSX element, header
-
-
+import htmlLogo from './images/html_logo.png'
+import cssLogo from './images/css_logo.png'
+import jsLogo from './images/js.svg'
+import reactLogo from './images/react_logo.png'
 // JSX element, header
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
@@ -72,6 +60,30 @@ const user = (
   </div>
 )
 
+const techImagesURLs = [htmlLogo, cssLogo, jsLogo, reactLogo]
+const techImages = (
+  techImagesURLs.map(url => <img src={url} height="200"/>)
+)
+const techSection = (
+  <div className='tech-section'>
+    <h4>Front End Technologies</h4>
+    <div>{techImages}</div>
+  </div>
+)
+
+const subscribeSection = (
+  <div className='sub-container'>
+    <h1 className='sub-header'>SUBSCRIBE</h1>
+    <p className='sub-p'>Sign up with your email address to receive news and updates.</p>
+    <div>
+      <input type='fname' placeholder='First Name' className='field'></input>
+      <input type='lname' placeholder='Last Name' className='field'></input>
+      <input type='email' placeholder='Email' className='field'></input>
+    </div>
+    <button className='sub-button'>Subscribe</button>
+  </div>
+)
+
 // JSX element, main
 const main = (
   <main>
@@ -87,6 +99,8 @@ const main = (
       {result}
       {personAge}
       {user}
+      {techSection}
+      {subscribeSection}
     </div>
   </main>
 )
@@ -102,6 +116,10 @@ const footer = (
   </footer>
 )
 
+const icons = (
+  <div></div>
+)
+
 // JSX element, app
 const app = (
   <div className='app'>
@@ -113,4 +131,5 @@ const app = (
 
 const rootElement = document.getElementById('root')
 // we render the JSX element using the ReactDOM package
+console.log('hi')
 ReactDOM.render(app, rootElement)
