@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck, faClock } from '@fortawesome/free-solid-svg-icons'
 // To get the root element from the HTML document
 import asabenehImage from './images/asabeneh.jpg'
 import htmlLogo from './images/html_logo.png'
@@ -66,7 +68,7 @@ const techImages = (
 )
 const techSection = (
   <div className='tech-section'>
-    <h4>Front End Technologies</h4>
+    <h4 className='tech-title'>Front End Technologies</h4>
     <div>{techImages}</div>
   </div>
 )
@@ -81,6 +83,21 @@ const subscribeSection = (
       <input type='email' placeholder='Email' className='field'></input>
     </div>
     <button className='sub-button'>Subscribe</button>
+  </div>
+)
+
+const skills = ['HTML', 'CSS', 'Sass', 'JavaScript', 'React', 'Redux', 'Node', 'MongoDB', 'Python', 'Flask', 'Django', 'NumPy', 'Pandas', 'Data Analysis', 'MySQL', 'GraphQL', 'D3.js', 'Gatsby', 'Docker', 'Heroku', 'Git']
+const skillsItems = skills.map(item => <p className='skill-item'>{item}</p>)
+const userCard = (
+  <div className='user-card'>
+    <img src={asabenehImage} alt='asabeneh image' className='profile-pic'/>
+    <h4 className='user-title'>ASABENEH YETAYEH <FontAwesomeIcon icon={faCheck} className='verified'></FontAwesomeIcon></h4>
+    <p>Senior Developer, Finland</p>
+    <h4 className='user-title'>SKILLS</h4>
+    <div className='skills-container'>
+      {skillsItems}
+    </div>
+    <p><FontAwesomeIcon icon={faClock} className='clock-icon' size='s'></FontAwesomeIcon>Joined on Aug 30, 2020</p>
   </div>
 )
 
@@ -101,6 +118,7 @@ const main = (
       {user}
       {techSection}
       {subscribeSection}
+      {userCard}
     </div>
   </main>
 )

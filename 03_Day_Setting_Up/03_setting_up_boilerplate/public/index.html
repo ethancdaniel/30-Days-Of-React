@@ -19,24 +19,20 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        font-family: 'Montserrat', 'Open Sans', sans-serif;
       }
 
       html,
       body {
         height: 100%;
         line-height: 1.5;
-        font-family: 'Montserrat';
+        background-color: #F0F1F7;
         font-weight: 300;
         color: black;
       }
 
       button, input{
-        font-family: 'Montserrat';
         font-size: 12px;
-      }
-
-      h4 {
-        margin: 20px;
       }
 
       .root {
@@ -121,6 +117,10 @@
         font-size: 16px;
       }
 
+      .tech-title {
+        margin: 20px;
+      }
+
       .field {
         margin: 10px;
         padding: 12px;
@@ -135,6 +135,50 @@
         margin: 10px;
         border-radius: 5px;
         color: white;
+      }
+
+      .user-card {
+        background-color: white;
+        border-radius: 4px;
+        padding: 15px;
+      }
+
+      .profile-pic {
+        width: 200px;
+        border-radius: 360px;
+      }
+      
+      .verified {
+        position: relative;
+        top: 3px;
+        left: 3px;  
+        background-color: #61dbfb;
+        border-radius: 20px;
+        padding: 3px;
+        color: white;
+      }
+      .user-title {
+        margin: 15px 0px;
+      }
+
+      .skill-item {
+        background-color: #2ACFCF;
+        border-radius: 6px;
+        width: fit-content;
+        color: white;
+        padding: 4px 7px;
+        font-weight: 400;
+      }
+
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 15px;
+      }
+
+      .clock-icon {
+        margin-right: 5px;
       }
     </style>
   </head>
