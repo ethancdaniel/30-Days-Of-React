@@ -1,4 +1,5 @@
 // index.js
+// Most exercises were copied from Day 3, so I only did the random background colors. 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import asabenehImage from './images/asabeneh.jpg'
@@ -24,7 +25,8 @@ const HexaColor = () => {
     margin: '2px auto',
     borderRadius: '5px',
     width: '75%',
-    border: '2px solid black',
+    'background-color': bgColor,
+    color: 'white'
   }
   return (
     <div style={styles}>
@@ -80,6 +82,8 @@ const Main = () => (
       <UserCard />
       <div>
         {/* Generate two different hexa colors every time */}
+        <HexaColor />
+        <HexaColor />
         <HexaColor />
         <HexaColor />
       </div>
