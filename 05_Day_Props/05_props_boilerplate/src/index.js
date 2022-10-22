@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import asabenehImage from './images/asabeneh.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck, faClock } from '@fortawesome/free-solid-svg-icons'
 
 // Fuction to show month date year
 
@@ -87,8 +89,11 @@ const buttonStyles = {
   color: 'white',
 }
 
+const skills = ['HTML', 'CSS', 'Sass', 'JavaScript', 'React', 'Redux', 'Node', 'MongoDB', 'Python', 'Flask', 'Django', 'NumPy', 'Pandas', 'Data Analysis', 'MySQL', 'GraphQL', 'D3.js', 'Gatsby', 'Docker', 'Heroku', 'Git']
+const userWithSkills = { name: 'Asabeneh Yetayeh', bio: 'Senior Developer, Finland', skills: skills, joinDate: new Date() }
+
 // Main Component
-const Main = ({ user, techs, greetPeople, handleTime }) => (
+const Main = ({ user, techs, greetPeople, handleTime, userData }) => (
   <main>
     <div className='main-wrapper'>
       <p>Prerequisite to get started react.js:</p>
@@ -98,6 +103,7 @@ const Main = ({ user, techs, greetPeople, handleTime }) => (
       <UserCard user={user} />
       <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
       <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
+      <UserCardWithSkills userData={userWithSkills} />
     </div>
   </main>
 )
@@ -110,6 +116,25 @@ const Footer = ({ copyRight }) => (
     </div>
   </footer>
 )
+
+const UserCardWithSkills = (props) => {
+  const { name, bio, skills, joinDate } = props.userData
+
+  const skillsItems = skills.map(item => <p className='skill-item'>{item}</p>)
+
+  return (
+    <div className='user-card2'>
+      <img src={asabenehImage} alt='asabeneh image' className='profile-pic'/>
+      <h4 className='user-title'>{name.toUpperCase()} <FontAwesomeIcon icon={faCheck} className='verified'></FontAwesomeIcon></h4>
+      <p>{bio}</p>
+      <h4 className='user-title'></h4>
+      <div className='skills-container'>
+        {skillsItems}
+      </div>
+      <p><FontAwesomeIcon icon={faClock} className='clock-icon' size='s'></FontAwesomeIcon>Joined on {joinDate.toString()}</p>
+    </div>
+  )
+}
 
 // The App, or the parent or the container component
 // Functional Component
