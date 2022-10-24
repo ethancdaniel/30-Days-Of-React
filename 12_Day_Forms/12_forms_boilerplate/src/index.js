@@ -1,6 +1,7 @@
 // index.js
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import validator from 'validator'
 
 const options = [
   {
@@ -53,7 +54,9 @@ class App extends Component {
     touched: {
       firstName: false,
       lastName: false,
-    },
+      email: false,
+      country: false
+    }
   }
   handleChange = (e) => {
     /*
@@ -80,15 +83,22 @@ class App extends Component {
   }
   validate = () => {
     // Object to collect error feedback and to display on the form
-    const errors = {
-      firstName: '',
-    }
+    const errors = {}
+    const { firstName, lastName, email, country, tel, dateOfBirth, favoriteColor, weight, gender, file, bio, skills, touched} = this.state
 
-    if (
-      (this.state.touched.firstName && this.state.firstName.length < 3) ||
-      (this.state.touched.firstName && this.state.firstName.length > 12)
-    ) {
-      errors.firstName = 'First name must be between 2 and 12'
+    if (touched.firstName && !validator.isAlpha(firstName)) {
+      errors['firstName'] = 'First name must consist of only letters'
+    }
+    if (touched.lastName && !validator.isAlpha(lastName)) {
+      errors['lastName'] = 'Last name must consist of only letters'
+    }
+    if (touched.email && !validator.isEmail(email)) {
+      errors['email'] = 'Invalid email address'
+    }
+    console.log(country)
+    console.log(touched.country)
+    if (touched.country && country == '') {
+      errors['country'] = 'Must select a country'
     }
     return errors
   }
@@ -139,7 +149,7 @@ class App extends Component {
     // accessing the state value by destrutcturing the state
     // the noValidate attribute on the form is to stop the HTML5 built-in validation
 
-    const { firstName } = this.validate()
+    const { firstName, lastName, email, country} = this.validate()
     return (
       <div className='App'>
         <h3>Add Student</h3>
@@ -165,8 +175,11 @@ class App extends Component {
                 name='lastName'
                 value={this.state.lastName}
                 onChange={this.handleChange}
+                onBlur={this.handleBlur}
                 placeholder='Last Name'
-              />
+              />{' '}
+              <br></br>
+              <small>{lastName}</small>
             </div>
             <div className='form-group'>
               <label htmlFor='email'>Email </label>
@@ -175,8 +188,11 @@ class App extends Component {
                 name='email'
                 value={this.state.email}
                 onChange={this.handleChange}
+                onBlur={this.handleBlur}
                 placeholder='Email'
-              />
+              />{' '}
+              <br></br>
+              <small>{email}</small>
             </div>
           </div>
 
@@ -225,9 +241,11 @@ class App extends Component {
           </div>
           <div>
             <label htmlFor='country'>Country</label> <br />
-            <select name='country' onChange={this.handleChange} id='country'>
+            <select name='country' onChange={this.handleChange} onBlur={this.handleBlur} id='country'>
               {selectOptions}
-            </select>
+            </select>{' '}
+              <br></br>
+              <small>{country}</small>
           </div>
 
           <div>
