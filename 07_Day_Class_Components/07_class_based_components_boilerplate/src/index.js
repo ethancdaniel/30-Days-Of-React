@@ -3,6 +3,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import asabenehImage from './images/asabeneh.jpg'
+import { countriesData } from './data/countries'
+import './main.css'
 
 // Fuction to show month date year
 
@@ -43,7 +45,6 @@ class Header extends React.Component {
     // the code inside the constructor run before any other code
   }
   render() {
-    console.log(this.props.data)
     const {
       welcome,
       title,
@@ -81,6 +82,33 @@ class TechList extends React.Component {
   }
 }
 
+class CountryCard extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    const { name, capital, languages, population, flag, currency } = this.props.country
+    return (
+      <div className='country'>
+        <div className='country-container'>
+          <img src={flag} width='200px' />
+          <h3>{name}</h3>
+          <p><span>Capital:</span>{capital}</p>
+          <p><span>Languages:</span>{languages}</p>
+          <p><span>Population:</span>{population}</p>
+          <p><span>Currency:</span>{currency}</p>
+        </div>
+        <Button
+            text='Randomize Country'
+            onClick={this.props.randomizeCountry}
+            style={buttonStyles}
+            />
+
+      </div>
+      )
+  }
+}
+
 // Main Component
 // Class Component
 class Main extends React.Component {
@@ -106,6 +134,17 @@ class Main extends React.Component {
             onClick={this.props.handleTime}
             style={buttonStyles}
           />
+          <Button
+            text='Change Background'
+            onClick={this.props.changeBackground}
+            style={buttonStyles}
+          />
+          <CountryCard country={this.props.country} randomizeCountry={this.props.randomizeCountry}/>
+          {/* <Button
+            text='Randomize Country'
+            onClick={this.props.randomizeCountry}
+            style={buttonStyles}
+          /> */}
         </div>
       </main>
     )
@@ -130,6 +169,11 @@ class Footer extends React.Component {
 }
 
 class App extends React.Component {
+  state = {
+    backgroundColor: 'white',
+    color: 'black',
+    country: countriesData[Math.floor(Math.random() * countriesData.length)]
+  }
   showDate = (time) => {
     const months = [
       'January',
@@ -157,6 +201,14 @@ class App extends React.Component {
   greetPeople = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
+  changeBackground = () => {
+    this.setState({ backgroundColor: this.state.backgroundColor === 'white' ? 'black' : 'white', 
+    color: this.state.color === 'white' ? 'black' : 'white'})
+  }
+  randomizeCountry = () => {
+    this.setState({ country: countriesData[Math.floor(Math.random() * countriesData.length)]})
+    console.log(this.state.country)
+  }
   render() {
     const data = {
       welcome: 'Welcome to 30 Days Of React',
@@ -172,15 +224,21 @@ class App extends React.Component {
 
     // copying the author from data object to user variable using spread operator
     const user = { ...data.author, image: asabenehImage }
-
+    const style = {
+      backgroundColor: this.state.backgroundColor,
+      color: this.state.color
+    }
     return (
-      <div className='app'>
+      <div className='app' style={style}>
         <Header data={data} />
         <Main
           user={user}
           techs={techs}
           handleTime={this.handleTime}
           greetPeople={this.greetPeople}
+          changeBackground={this.changeBackground}
+          randomizeCountry={this.randomizeCountry}
+          country={this.state.country}
         />
 
         <Footer date={new Date()} />

@@ -4,7 +4,7 @@ export const countriesData = [
     capital: 'Kabul',
     languages: ['Pashto', 'Uzbek', 'Turkmen'],
     population: 27657145,
-    flag: 'https://restcountries.eu/data/afg.svg',
+    flag: 'https://countryflagsapi.com/svg/afg',
     currency: 'Afghan afghani',
   },
   {
@@ -12,7 +12,7 @@ export const countriesData = [
     capital: 'Mariehamn',
     languages: ['Swedish'],
     population: 28875,
-    flag: 'https://restcountries.eu/data/ala.svg',
+    flag: 'https://countryflagsapi.com/svg/ala',
     currency: 'Euro',
   },
   {
@@ -20,7 +20,7 @@ export const countriesData = [
     capital: 'Tirana',
     languages: ['Albanian'],
     population: 2886026,
-    flag: 'https://restcountries.eu/data/alb.svg',
+    flag: 'https://countryflagsapi.com/svg/alb',
     currency: 'Albanian lek',
   },
   {
@@ -28,7 +28,7 @@ export const countriesData = [
     capital: 'Algiers',
     languages: ['Arabic'],
     population: 40400000,
-    flag: 'https://restcountries.eu/data/dza.svg',
+    flag: 'https://countryflagsapi.com/svg/dza',
     currency: 'Algerian dinar',
   },
   {
@@ -36,7 +36,7 @@ export const countriesData = [
     capital: 'Pago Pago',
     languages: ['English', 'Samoan'],
     population: 57100,
-    flag: 'https://restcountries.eu/data/asm.svg',
+    flag: 'https://countryflagsapi.com/svg/asm',
     currency: 'United State Dollar',
   },
   {
@@ -44,7 +44,7 @@ export const countriesData = [
     capital: 'Andorra la Vella',
     languages: ['Catalan'],
     population: 78014,
-    flag: 'https://restcountries.eu/data/and.svg',
+    flag: 'https://countryflagsapi.com/svg/and',
     currency: 'Euro',
   },
   {
@@ -52,7 +52,7 @@ export const countriesData = [
     capital: 'Luanda',
     languages: ['Portuguese'],
     population: 25868000,
-    flag: 'https://restcountries.eu/data/ago.svg',
+    flag: 'https://countryflagsapi.com/svg/ago',
     currency: 'Angolan kwanza',
   },
   {
@@ -60,7 +60,7 @@ export const countriesData = [
     capital: 'The Valley',
     languages: ['English'],
     population: 13452,
-    flag: 'https://restcountries.eu/data/aia.svg',
+    flag: 'https://countryflagsapi.com/svg/aia',
     currency: 'East Caribbean dollar',
   },
   {
@@ -68,7 +68,7 @@ export const countriesData = [
     capital: '',
     languages: ['English', 'Russian'],
     population: 1000,
-    flag: 'https://restcountries.eu/data/ata.svg',
+    flag: 'https://countryflagsapi.com/svg/ata',
     currency: 'Australian dollar',
   },
   {
@@ -76,7 +76,7 @@ export const countriesData = [
     capital: "Saint John's",
     languages: ['English'],
     population: 86295,
-    flag: 'https://restcountries.eu/data/atg.svg',
+    flag: 'https://countryflagsapi.com/svg/atg',
     currency: 'East Caribbean dollar',
   },
   {
@@ -84,7 +84,7 @@ export const countriesData = [
     capital: 'Buenos Aires',
     languages: ['Spanish', 'Guaraní'],
     population: 43590400,
-    flag: 'https://restcountries.eu/data/arg.svg',
+    flag: 'https://countryflagsapi.com/svg/arg',
     currency: 'Argentine peso',
   },
   {
@@ -92,7 +92,7 @@ export const countriesData = [
     capital: 'Yerevan',
     languages: ['Armenian', 'Russian'],
     population: 2994400,
-    flag: 'https://restcountries.eu/data/arm.svg',
+    flag: 'https://countryflagsapi.com/svg/arm',
     currency: 'Armenian dram',
   },
   {
@@ -100,7 +100,7 @@ export const countriesData = [
     capital: 'Oranjestad',
     languages: ['Dutch', '(Eastern) Punjabi'],
     population: 107394,
-    flag: 'https://restcountries.eu/data/abw.svg',
+    flag: 'https://countryflagsapi.com/svg/abw',
     currency: 'Aruban florin',
   },
   {
@@ -108,7 +108,7 @@ export const countriesData = [
     capital: 'Canberra',
     languages: ['English'],
     population: 24117360,
-    flag: 'https://restcountries.eu/data/aus.svg',
+    flag: 'https://countryflagsapi.com/svg/aus',
     currency: 'Australian dollar',
   },
   {
@@ -116,7 +116,7 @@ export const countriesData = [
     capital: 'Vienna',
     languages: ['German'],
     population: 8725931,
-    flag: 'https://restcountries.eu/data/aut.svg',
+    flag: 'https://countryflagsapi.com/svg/aut',
     currency: 'Euro',
   },
   {
@@ -124,7 +124,7 @@ export const countriesData = [
     capital: 'Baku',
     languages: ['Azerbaijani'],
     population: 9730500,
-    flag: 'https://restcountries.eu/data/aze.svg',
+    flag: 'https://countryflagsapi.com/svg/aze',
     currency: 'Azerbaijani manat',
   },
   {
@@ -132,7 +132,7 @@ export const countriesData = [
     capital: 'Nassau',
     languages: ['English'],
     population: 378040,
-    flag: 'https://restcountries.eu/data/bhs.svg',
+    flag: 'https://countryflagsapi.com/svg/bhs',
     currency: 'Bahamian dollar',
   },
   {
@@ -140,7 +140,7 @@ export const countriesData = [
     capital: 'Manama',
     languages: ['Arabic'],
     population: 1404900,
-    flag: 'https://restcountries.eu/data/bhr.svg',
+    flag: 'https://countryflagsapi.com/svg/bhr',
     currency: 'Bahraini dinar',
   },
   {
@@ -148,7 +148,7 @@ export const countriesData = [
     capital: 'Dhaka',
     languages: ['Bengali'],
     population: 161006790,
-    flag: 'https://restcountries.eu/data/bgd.svg',
+    flag: 'https://countryflagsapi.com/svg/bgd',
     currency: 'Bangladeshi taka',
   },
   {
@@ -156,7 +156,7 @@ export const countriesData = [
     capital: 'Bridgetown',
     languages: ['English'],
     population: 285000,
-    flag: 'https://restcountries.eu/data/brb.svg',
+    flag: 'https://countryflagsapi.com/svg/brb',
     currency: 'Barbadian dollar',
   },
   {
@@ -164,7 +164,7 @@ export const countriesData = [
     capital: 'Minsk',
     languages: ['Belarusian', 'Russian'],
     population: 9498700,
-    flag: 'https://restcountries.eu/data/blr.svg',
+    flag: 'https://countryflagsapi.com/svg/blr',
     currency: 'New Belarusian ruble',
   },
   {
@@ -172,7 +172,7 @@ export const countriesData = [
     capital: 'Brussels',
     languages: ['Dutch', 'French', 'German'],
     population: 11319511,
-    flag: 'https://restcountries.eu/data/bel.svg',
+    flag: 'https://countryflagsapi.com/svg/bel',
     currency: 'Euro',
   },
   {
@@ -180,7 +180,7 @@ export const countriesData = [
     capital: 'Belmopan',
     languages: ['English', 'Spanish'],
     population: 370300,
-    flag: 'https://restcountries.eu/data/blz.svg',
+    flag: 'https://countryflagsapi.com/svg/blz',
     currency: 'Belize dollar',
   },
   {
@@ -188,7 +188,7 @@ export const countriesData = [
     capital: 'Porto-Novo',
     languages: ['French'],
     population: 10653654,
-    flag: 'https://restcountries.eu/data/ben.svg',
+    flag: 'https://countryflagsapi.com/svg/ben',
     currency: 'West African CFA franc',
   },
   {
@@ -196,7 +196,7 @@ export const countriesData = [
     capital: 'Hamilton',
     languages: ['English'],
     population: 61954,
-    flag: 'https://restcountries.eu/data/bmu.svg',
+    flag: 'https://countryflagsapi.com/svg/bmu',
     currency: 'Bermudian dollar',
   },
   {
@@ -204,7 +204,7 @@ export const countriesData = [
     capital: 'Thimphu',
     languages: ['Dzongkha'],
     population: 775620,
-    flag: 'https://restcountries.eu/data/btn.svg',
+    flag: 'https://countryflagsapi.com/svg/btn',
     currency: 'Bhutanese ngultrum',
   },
   {
@@ -212,7 +212,7 @@ export const countriesData = [
     capital: 'Sucre',
     languages: ['Spanish', 'Aymara', 'Quechua'],
     population: 10985059,
-    flag: 'https://restcountries.eu/data/bol.svg',
+    flag: 'https://countryflagsapi.com/svg/bol',
     currency: 'Bolivian boliviano',
   },
   {
@@ -220,7 +220,7 @@ export const countriesData = [
     capital: 'Kralendijk',
     languages: ['Dutch'],
     population: 17408,
-    flag: 'https://restcountries.eu/data/bes.svg',
+    flag: 'https://countryflagsapi.com/svg/bes',
     currency: 'United States dollar',
   },
   {
@@ -228,7 +228,7 @@ export const countriesData = [
     capital: 'Sarajevo',
     languages: ['Bosnian', 'Croatian', 'Serbian'],
     population: 3531159,
-    flag: 'https://restcountries.eu/data/bih.svg',
+    flag: 'https://countryflagsapi.com/svg/bih',
     currency: 'Bosnia and Herzegovina convertible mark',
   },
   {
@@ -236,7 +236,7 @@ export const countriesData = [
     capital: 'Gaborone',
     languages: ['English', 'Tswana'],
     population: 2141206,
-    flag: 'https://restcountries.eu/data/bwa.svg',
+    flag: 'https://countryflagsapi.com/svg/bwa',
     currency: 'Botswana pula',
   },
   {
@@ -244,7 +244,7 @@ export const countriesData = [
     capital: '',
     languages: ['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk'],
     population: 0,
-    flag: 'https://restcountries.eu/data/bvt.svg',
+    flag: 'https://countryflagsapi.com/svg/bvt',
     currency: 'Norwegian krone',
   },
   {
@@ -252,7 +252,7 @@ export const countriesData = [
     capital: 'Brasília',
     languages: ['Portuguese'],
     population: 206135893,
-    flag: 'https://restcountries.eu/data/bra.svg',
+    flag: 'https://countryflagsapi.com/svg/bra',
     currency: 'Brazilian real',
   },
   {
@@ -260,7 +260,7 @@ export const countriesData = [
     capital: 'Diego Garcia',
     languages: ['English'],
     population: 3000,
-    flag: 'https://restcountries.eu/data/iot.svg',
+    flag: 'https://countryflagsapi.com/svg/iot',
     currency: 'United States dollar',
   },
   {
@@ -268,7 +268,7 @@ export const countriesData = [
     capital: '',
     languages: ['English'],
     population: 300,
-    flag: 'https://restcountries.eu/data/umi.svg',
+    flag: 'https://countryflagsapi.com/svg/umi',
     currency: 'United States Dollar',
   },
   {
@@ -276,7 +276,7 @@ export const countriesData = [
     capital: 'Road Town',
     languages: ['English'],
     population: 28514,
-    flag: 'https://restcountries.eu/data/vgb.svg',
+    flag: 'https://countryflagsapi.com/svg/vgb',
     currency: '[D]',
   },
   {
@@ -284,7 +284,7 @@ export const countriesData = [
     capital: 'Charlotte Amalie',
     languages: ['English'],
     population: 114743,
-    flag: 'https://restcountries.eu/data/vir.svg',
+    flag: 'https://countryflagsapi.com/svg/vir',
     currency: 'United States dollar',
   },
   {
@@ -292,7 +292,7 @@ export const countriesData = [
     capital: 'Bandar Seri Begawan',
     languages: ['Malay'],
     population: 411900,
-    flag: 'https://restcountries.eu/data/brn.svg',
+    flag: 'https://countryflagsapi.com/svg/brn',
     currency: 'Brunei dollar',
   },
   {
@@ -300,7 +300,7 @@ export const countriesData = [
     capital: 'Sofia',
     languages: ['Bulgarian'],
     population: 7153784,
-    flag: 'https://restcountries.eu/data/bgr.svg',
+    flag: 'https://countryflagsapi.com/svg/bgr',
     currency: 'Bulgarian lev',
   },
   {
@@ -308,7 +308,7 @@ export const countriesData = [
     capital: 'Ouagadougou',
     languages: ['French', 'Fula'],
     population: 19034397,
-    flag: 'https://restcountries.eu/data/bfa.svg',
+    flag: 'https://countryflagsapi.com/svg/bfa',
     currency: 'West African CFA franc',
   },
   {
@@ -316,7 +316,7 @@ export const countriesData = [
     capital: 'Bujumbura',
     languages: ['French', 'Kirundi'],
     population: 10114505,
-    flag: 'https://restcountries.eu/data/bdi.svg',
+    flag: 'https://countryflagsapi.com/svg/bdi',
     currency: 'Burundian franc',
   },
   {
@@ -324,7 +324,7 @@ export const countriesData = [
     capital: 'Phnom Penh',
     languages: ['Khmer'],
     population: 15626444,
-    flag: 'https://restcountries.eu/data/khm.svg',
+    flag: 'https://countryflagsapi.com/svg/khm',
     currency: 'Cambodian riel',
   },
   {
@@ -332,7 +332,7 @@ export const countriesData = [
     capital: 'Yaoundé',
     languages: ['English', 'French'],
     population: 22709892,
-    flag: 'https://restcountries.eu/data/cmr.svg',
+    flag: 'https://countryflagsapi.com/svg/cmr',
     currency: 'Central African CFA franc',
   },
   {
@@ -340,7 +340,7 @@ export const countriesData = [
     capital: 'Ottawa',
     languages: ['English', 'French'],
     population: 36155487,
-    flag: 'https://restcountries.eu/data/can.svg',
+    flag: 'https://countryflagsapi.com/svg/can',
     currency: 'Canadian dollar',
   },
   {
@@ -348,7 +348,7 @@ export const countriesData = [
     capital: 'Praia',
     languages: ['Portuguese'],
     population: 531239,
-    flag: 'https://restcountries.eu/data/cpv.svg',
+    flag: 'https://countryflagsapi.com/svg/cpv',
     currency: 'Cape Verdean escudo',
   },
   {
@@ -356,7 +356,7 @@ export const countriesData = [
     capital: 'George Town',
     languages: ['English'],
     population: 58238,
-    flag: 'https://restcountries.eu/data/cym.svg',
+    flag: 'https://countryflagsapi.com/svg/cym',
     currency: 'Cayman Islands dollar',
   },
   {
@@ -364,7 +364,7 @@ export const countriesData = [
     capital: 'Bangui',
     languages: ['French', 'Sango'],
     population: 4998000,
-    flag: 'https://restcountries.eu/data/caf.svg',
+    flag: 'https://countryflagsapi.com/svg/caf',
     currency: 'Central African CFA franc',
   },
   {
@@ -372,7 +372,7 @@ export const countriesData = [
     capital: "N'Djamena",
     languages: ['French', 'Arabic'],
     population: 14497000,
-    flag: 'https://restcountries.eu/data/tcd.svg',
+    flag: 'https://countryflagsapi.com/svg/tcd',
     currency: 'Central African CFA franc',
   },
   {
@@ -380,7 +380,7 @@ export const countriesData = [
     capital: 'Santiago',
     languages: ['Spanish'],
     population: 18191900,
-    flag: 'https://restcountries.eu/data/chl.svg',
+    flag: 'https://countryflagsapi.com/svg/chl',
     currency: 'Chilean peso',
   },
   {
@@ -388,7 +388,7 @@ export const countriesData = [
     capital: 'Beijing',
     languages: ['Chinese'],
     population: 1377422166,
-    flag: 'https://restcountries.eu/data/chn.svg',
+    flag: 'https://countryflagsapi.com/svg/chn',
     currency: 'Chinese yuan',
   },
   {
@@ -396,7 +396,7 @@ export const countriesData = [
     capital: 'Flying Fish Cove',
     languages: ['English'],
     population: 2072,
-    flag: 'https://restcountries.eu/data/cxr.svg',
+    flag: 'https://countryflagsapi.com/svg/cxr',
     currency: 'Australian dollar',
   },
   {
@@ -404,7 +404,7 @@ export const countriesData = [
     capital: 'West Island',
     languages: ['English'],
     population: 550,
-    flag: 'https://restcountries.eu/data/cck.svg',
+    flag: 'https://countryflagsapi.com/svg/cck',
     currency: 'Australian dollar',
   },
   {
@@ -412,7 +412,7 @@ export const countriesData = [
     capital: 'Bogotá',
     languages: ['Spanish'],
     population: 48759958,
-    flag: 'https://restcountries.eu/data/col.svg',
+    flag: 'https://countryflagsapi.com/svg/col',
     currency: 'Colombian peso',
   },
   {
@@ -420,7 +420,7 @@ export const countriesData = [
     capital: 'Moroni',
     languages: ['Arabic', 'French'],
     population: 806153,
-    flag: 'https://restcountries.eu/data/com.svg',
+    flag: 'https://countryflagsapi.com/svg/com',
     currency: 'Comorian franc',
   },
   {
@@ -428,7 +428,7 @@ export const countriesData = [
     capital: 'Brazzaville',
     languages: ['French', 'Lingala'],
     population: 4741000,
-    flag: 'https://restcountries.eu/data/cog.svg',
+    flag: 'https://countryflagsapi.com/svg/cog',
     currency: 'Central African CFA franc',
   },
   {
@@ -436,7 +436,7 @@ export const countriesData = [
     capital: 'Kinshasa',
     languages: ['French', 'Lingala', 'Kongo', 'Swahili', 'Luba-Katanga'],
     population: 85026000,
-    flag: 'https://restcountries.eu/data/cod.svg',
+    flag: 'https://countryflagsapi.com/svg/cod',
     currency: 'Congolese franc',
   },
   {
@@ -444,7 +444,7 @@ export const countriesData = [
     capital: 'Avarua',
     languages: ['English'],
     population: 18100,
-    flag: 'https://restcountries.eu/data/cok.svg',
+    flag: 'https://countryflagsapi.com/svg/cok',
     currency: 'New Zealand dollar',
   },
   {
@@ -452,7 +452,7 @@ export const countriesData = [
     capital: 'San José',
     languages: ['Spanish'],
     population: 4890379,
-    flag: 'https://restcountries.eu/data/cri.svg',
+    flag: 'https://countryflagsapi.com/svg/cri',
     currency: 'Costa Rican colón',
   },
   {
@@ -460,7 +460,7 @@ export const countriesData = [
     capital: 'Zagreb',
     languages: ['Croatian'],
     population: 4190669,
-    flag: 'https://restcountries.eu/data/hrv.svg',
+    flag: 'https://countryflagsapi.com/svg/hrv',
     currency: 'Croatian kuna',
   },
   {
@@ -468,7 +468,7 @@ export const countriesData = [
     capital: 'Havana',
     languages: ['Spanish'],
     population: 11239004,
-    flag: 'https://restcountries.eu/data/cub.svg',
+    flag: 'https://countryflagsapi.com/svg/cub',
     currency: 'Cuban convertible peso',
   },
   {
@@ -476,7 +476,7 @@ export const countriesData = [
     capital: 'Willemstad',
     languages: ['Dutch', '(Eastern) Punjabi', 'English'],
     population: 154843,
-    flag: 'https://restcountries.eu/data/cuw.svg',
+    flag: 'https://countryflagsapi.com/svg/cuw',
     currency: 'Netherlands Antillean guilder',
   },
   {
@@ -484,7 +484,7 @@ export const countriesData = [
     capital: 'Nicosia',
     languages: ['Greek (modern)', 'Turkish', 'Armenian'],
     population: 847000,
-    flag: 'https://restcountries.eu/data/cyp.svg',
+    flag: 'https://countryflagsapi.com/svg/cyp',
     currency: 'Euro',
   },
   {
@@ -492,7 +492,7 @@ export const countriesData = [
     capital: 'Prague',
     languages: ['Czech', 'Slovak'],
     population: 10558524,
-    flag: 'https://restcountries.eu/data/cze.svg',
+    flag: 'https://countryflagsapi.com/svg/cze',
     currency: 'Czech koruna',
   },
   {
@@ -500,7 +500,7 @@ export const countriesData = [
     capital: 'Copenhagen',
     languages: ['Danish'],
     population: 5717014,
-    flag: 'https://restcountries.eu/data/dnk.svg',
+    flag: 'https://countryflagsapi.com/svg/dnk',
     currency: 'Danish krone',
   },
   {
@@ -508,7 +508,7 @@ export const countriesData = [
     capital: 'Djibouti',
     languages: ['French', 'Arabic'],
     population: 900000,
-    flag: 'https://restcountries.eu/data/dji.svg',
+    flag: 'https://countryflagsapi.com/svg/dji',
     currency: 'Djiboutian franc',
   },
   {
@@ -516,7 +516,7 @@ export const countriesData = [
     capital: 'Roseau',
     languages: ['English'],
     population: 71293,
-    flag: 'https://restcountries.eu/data/dma.svg',
+    flag: 'https://countryflagsapi.com/svg/dma',
     currency: 'East Caribbean dollar',
   },
   {
@@ -524,7 +524,7 @@ export const countriesData = [
     capital: 'Santo Domingo',
     languages: ['Spanish'],
     population: 10075045,
-    flag: 'https://restcountries.eu/data/dom.svg',
+    flag: 'https://countryflagsapi.com/svg/dom',
     currency: 'Dominican peso',
   },
   {
@@ -532,7 +532,7 @@ export const countriesData = [
     capital: 'Quito',
     languages: ['Spanish'],
     population: 16545799,
-    flag: 'https://restcountries.eu/data/ecu.svg',
+    flag: 'https://countryflagsapi.com/svg/ecu',
     currency: 'United States dollar',
   },
   {
@@ -540,7 +540,7 @@ export const countriesData = [
     capital: 'Cairo',
     languages: ['Arabic'],
     population: 91290000,
-    flag: 'https://restcountries.eu/data/egy.svg',
+    flag: 'https://countryflagsapi.com/svg/egy',
     currency: 'Egyptian pound',
   },
   {
@@ -548,7 +548,7 @@ export const countriesData = [
     capital: 'San Salvador',
     languages: ['Spanish'],
     population: 6520675,
-    flag: 'https://restcountries.eu/data/slv.svg',
+    flag: 'https://countryflagsapi.com/svg/slv',
     currency: 'United States dollar',
   },
   {
@@ -556,7 +556,7 @@ export const countriesData = [
     capital: 'Malabo',
     languages: ['Spanish', 'French'],
     population: 1222442,
-    flag: 'https://restcountries.eu/data/gnq.svg',
+    flag: 'https://countryflagsapi.com/svg/gnq',
     currency: 'Central African CFA franc',
   },
   {
@@ -564,7 +564,7 @@ export const countriesData = [
     capital: 'Asmara',
     languages: ['Tigrinya', 'Arabic', 'English'],
     population: 5352000,
-    flag: 'https://restcountries.eu/data/eri.svg',
+    flag: 'https://countryflagsapi.com/svg/eri',
     currency: 'Eritrean nakfa',
   },
   {
@@ -572,7 +572,7 @@ export const countriesData = [
     capital: 'Tallinn',
     languages: ['Estonian'],
     population: 1315944,
-    flag: 'https://restcountries.eu/data/est.svg',
+    flag: 'https://countryflagsapi.com/svg/est',
     currency: 'Euro',
   },
   {
@@ -580,7 +580,7 @@ export const countriesData = [
     capital: 'Addis Ababa',
     languages: ['Amharic'],
     population: 92206005,
-    flag: 'https://restcountries.eu/data/eth.svg',
+    flag: 'https://countryflagsapi.com/svg/eth',
     currency: 'Ethiopian birr',
   },
   {
@@ -588,7 +588,7 @@ export const countriesData = [
     capital: 'Stanley',
     languages: ['English'],
     population: 2563,
-    flag: 'https://restcountries.eu/data/flk.svg',
+    flag: 'https://countryflagsapi.com/svg/flk',
     currency: 'Falkland Islands pound',
   },
   {
@@ -596,7 +596,7 @@ export const countriesData = [
     capital: 'Tórshavn',
     languages: ['Faroese'],
     population: 49376,
-    flag: 'https://restcountries.eu/data/fro.svg',
+    flag: 'https://countryflagsapi.com/svg/fro',
     currency: 'Danish krone',
   },
   {
@@ -604,7 +604,7 @@ export const countriesData = [
     capital: 'Suva',
     languages: ['English', 'Fijian', 'Hindi', 'Urdu'],
     population: 867000,
-    flag: 'https://restcountries.eu/data/fji.svg',
+    flag: 'https://countryflagsapi.com/svg/fji',
     currency: 'Fijian dollar',
   },
   {
@@ -612,7 +612,7 @@ export const countriesData = [
     capital: 'Helsinki',
     languages: ['Finnish', 'Swedish'],
     population: 5491817,
-    flag: 'https://restcountries.eu/data/fin.svg',
+    flag: 'https://countryflagsapi.com/svg/fin',
     currency: 'Euro',
   },
   {
@@ -620,7 +620,7 @@ export const countriesData = [
     capital: 'Paris',
     languages: ['French'],
     population: 66710000,
-    flag: 'https://restcountries.eu/data/fra.svg',
+    flag: 'https://countryflagsapi.com/svg/fra',
     currency: 'Euro',
   },
   {
@@ -628,7 +628,7 @@ export const countriesData = [
     capital: 'Cayenne',
     languages: ['French'],
     population: 254541,
-    flag: 'https://restcountries.eu/data/guf.svg',
+    flag: 'https://countryflagsapi.com/svg/guf',
     currency: 'Euro',
   },
   {
@@ -636,7 +636,7 @@ export const countriesData = [
     capital: 'Papeetē',
     languages: ['French'],
     population: 271800,
-    flag: 'https://restcountries.eu/data/pyf.svg',
+    flag: 'https://countryflagsapi.com/svg/pyf',
     currency: 'CFP franc',
   },
   {
@@ -644,7 +644,7 @@ export const countriesData = [
     capital: 'Port-aux-Français',
     languages: ['French'],
     population: 140,
-    flag: 'https://restcountries.eu/data/atf.svg',
+    flag: 'https://countryflagsapi.com/svg/atf',
     currency: 'Euro',
   },
   {
@@ -652,7 +652,7 @@ export const countriesData = [
     capital: 'Libreville',
     languages: ['French'],
     population: 1802278,
-    flag: 'https://restcountries.eu/data/gab.svg',
+    flag: 'https://countryflagsapi.com/svg/gab',
     currency: 'Central African CFA franc',
   },
   {
@@ -660,7 +660,7 @@ export const countriesData = [
     capital: 'Banjul',
     languages: ['English'],
     population: 1882450,
-    flag: 'https://restcountries.eu/data/gmb.svg',
+    flag: 'https://countryflagsapi.com/svg/gmb',
     currency: 'Gambian dalasi',
   },
   {
@@ -668,7 +668,7 @@ export const countriesData = [
     capital: 'Tbilisi',
     languages: ['Georgian'],
     population: 3720400,
-    flag: 'https://restcountries.eu/data/geo.svg',
+    flag: 'https://countryflagsapi.com/svg/geo',
     currency: 'Georgian Lari',
   },
   {
@@ -676,7 +676,7 @@ export const countriesData = [
     capital: 'Berlin',
     languages: ['German'],
     population: 81770900,
-    flag: 'https://restcountries.eu/data/deu.svg',
+    flag: 'https://countryflagsapi.com/svg/deu',
     currency: 'Euro',
   },
   {
@@ -684,7 +684,7 @@ export const countriesData = [
     capital: 'Accra',
     languages: ['English'],
     population: 27670174,
-    flag: 'https://restcountries.eu/data/gha.svg',
+    flag: 'https://countryflagsapi.com/svg/gha',
     currency: 'Ghanaian cedi',
   },
   {
@@ -692,7 +692,7 @@ export const countriesData = [
     capital: 'Gibraltar',
     languages: ['English'],
     population: 33140,
-    flag: 'https://restcountries.eu/data/gib.svg',
+    flag: 'https://countryflagsapi.com/svg/gib',
     currency: 'Gibraltar pound',
   },
   {
@@ -700,7 +700,7 @@ export const countriesData = [
     capital: 'Athens',
     languages: ['Greek (modern)'],
     population: 10858018,
-    flag: 'https://restcountries.eu/data/grc.svg',
+    flag: 'https://countryflagsapi.com/svg/grc',
     currency: 'Euro',
   },
   {
@@ -708,7 +708,7 @@ export const countriesData = [
     capital: 'Nuuk',
     languages: ['Kalaallisut'],
     population: 55847,
-    flag: 'https://restcountries.eu/data/grl.svg',
+    flag: 'https://countryflagsapi.com/svg/grl',
     currency: 'Danish krone',
   },
   {
@@ -716,7 +716,7 @@ export const countriesData = [
     capital: "St. George's",
     languages: ['English'],
     population: 103328,
-    flag: 'https://restcountries.eu/data/grd.svg',
+    flag: 'https://countryflagsapi.com/svg/grd',
     currency: 'East Caribbean dollar',
   },
   {
@@ -724,7 +724,7 @@ export const countriesData = [
     capital: 'Basse-Terre',
     languages: ['French'],
     population: 400132,
-    flag: 'https://restcountries.eu/data/glp.svg',
+    flag: 'https://countryflagsapi.com/svg/glp',
     currency: 'Euro',
   },
   {
@@ -732,7 +732,7 @@ export const countriesData = [
     capital: 'Hagåtña',
     languages: ['English', 'Chamorro', 'Spanish'],
     population: 184200,
-    flag: 'https://restcountries.eu/data/gum.svg',
+    flag: 'https://countryflagsapi.com/svg/gum',
     currency: 'United States dollar',
   },
   {
@@ -740,7 +740,7 @@ export const countriesData = [
     capital: 'Guatemala City',
     languages: ['Spanish'],
     population: 16176133,
-    flag: 'https://restcountries.eu/data/gtm.svg',
+    flag: 'https://countryflagsapi.com/svg/gtm',
     currency: 'Guatemalan quetzal',
   },
   {
@@ -748,7 +748,7 @@ export const countriesData = [
     capital: 'St. Peter Port',
     languages: ['English', 'French'],
     population: 62999,
-    flag: 'https://restcountries.eu/data/ggy.svg',
+    flag: 'https://countryflagsapi.com/svg/ggy',
     currency: 'British pound',
   },
   {
@@ -756,7 +756,7 @@ export const countriesData = [
     capital: 'Conakry',
     languages: ['French', 'Fula'],
     population: 12947000,
-    flag: 'https://restcountries.eu/data/gin.svg',
+    flag: 'https://countryflagsapi.com/svg/gin',
     currency: 'Guinean franc',
   },
   {
@@ -764,7 +764,7 @@ export const countriesData = [
     capital: 'Bissau',
     languages: ['Portuguese'],
     population: 1547777,
-    flag: 'https://restcountries.eu/data/gnb.svg',
+    flag: 'https://countryflagsapi.com/svg/gnb',
     currency: 'West African CFA franc',
   },
   {
@@ -772,7 +772,7 @@ export const countriesData = [
     capital: 'Georgetown',
     languages: ['English'],
     population: 746900,
-    flag: 'https://restcountries.eu/data/guy.svg',
+    flag: 'https://countryflagsapi.com/svg/guy',
     currency: 'Guyanese dollar',
   },
   {
@@ -780,7 +780,7 @@ export const countriesData = [
     capital: 'Port-au-Prince',
     languages: ['French', 'Haitian'],
     population: 11078033,
-    flag: 'https://restcountries.eu/data/hti.svg',
+    flag: 'https://countryflagsapi.com/svg/hti',
     currency: 'Haitian gourde',
   },
   {
@@ -788,7 +788,7 @@ export const countriesData = [
     capital: '',
     languages: ['English'],
     population: 0,
-    flag: 'https://restcountries.eu/data/hmd.svg',
+    flag: 'https://countryflagsapi.com/svg/hmd',
     currency: 'Australian dollar',
   },
   {
@@ -796,7 +796,7 @@ export const countriesData = [
     capital: 'Rome',
     languages: ['Latin', 'Italian', 'French', 'German'],
     population: 451,
-    flag: 'https://restcountries.eu/data/vat.svg',
+    flag: 'https://countryflagsapi.com/svg/vat',
     currency: 'Euro',
   },
   {
@@ -804,7 +804,7 @@ export const countriesData = [
     capital: 'Tegucigalpa',
     languages: ['Spanish'],
     population: 8576532,
-    flag: 'https://restcountries.eu/data/hnd.svg',
+    flag: 'https://countryflagsapi.com/svg/hnd',
     currency: 'Honduran lempira',
   },
   {
@@ -812,7 +812,7 @@ export const countriesData = [
     capital: 'City of Victoria',
     languages: ['English', 'Chinese'],
     population: 7324300,
-    flag: 'https://restcountries.eu/data/hkg.svg',
+    flag: 'https://countryflagsapi.com/svg/hkg',
     currency: 'Hong Kong dollar',
   },
   {
@@ -820,7 +820,7 @@ export const countriesData = [
     capital: 'Budapest',
     languages: ['Hungarian'],
     population: 9823000,
-    flag: 'https://restcountries.eu/data/hun.svg',
+    flag: 'https://countryflagsapi.com/svg/hun',
     currency: 'Hungarian forint',
   },
   {
@@ -828,7 +828,7 @@ export const countriesData = [
     capital: 'Reykjavík',
     languages: ['Icelandic'],
     population: 334300,
-    flag: 'https://restcountries.eu/data/isl.svg',
+    flag: 'https://countryflagsapi.com/svg/isl',
     currency: 'Icelandic króna',
   },
   {
@@ -836,7 +836,7 @@ export const countriesData = [
     capital: 'New Delhi',
     languages: ['Hindi', 'English'],
     population: 1295210000,
-    flag: 'https://restcountries.eu/data/ind.svg',
+    flag: 'https://countryflagsapi.com/svg/ind',
     currency: 'Indian rupee',
   },
   {
@@ -844,7 +844,7 @@ export const countriesData = [
     capital: 'Jakarta',
     languages: ['Indonesian'],
     population: 258705000,
-    flag: 'https://restcountries.eu/data/idn.svg',
+    flag: 'https://countryflagsapi.com/svg/idn',
     currency: 'Indonesian rupiah',
   },
   {
@@ -852,7 +852,7 @@ export const countriesData = [
     capital: 'Yamoussoukro',
     languages: ['French'],
     population: 22671331,
-    flag: 'https://restcountries.eu/data/civ.svg',
+    flag: 'https://countryflagsapi.com/svg/civ',
     currency: 'West African CFA franc',
   },
   {
@@ -860,7 +860,7 @@ export const countriesData = [
     capital: 'Tehran',
     languages: ['Persian (Farsi)'],
     population: 79369900,
-    flag: 'https://restcountries.eu/data/irn.svg',
+    flag: 'https://countryflagsapi.com/svg/irn',
     currency: 'Iranian rial',
   },
   {
@@ -868,7 +868,7 @@ export const countriesData = [
     capital: 'Baghdad',
     languages: ['Arabic', 'Kurdish'],
     population: 37883543,
-    flag: 'https://restcountries.eu/data/irq.svg',
+    flag: 'https://countryflagsapi.com/svg/irq',
     currency: 'Iraqi dinar',
   },
   {
@@ -876,7 +876,7 @@ export const countriesData = [
     capital: 'Dublin',
     languages: ['Irish', 'English'],
     population: 6378000,
-    flag: 'https://restcountries.eu/data/irl.svg',
+    flag: 'https://countryflagsapi.com/svg/irl',
     currency: 'Euro',
   },
   {
@@ -884,7 +884,7 @@ export const countriesData = [
     capital: 'Douglas',
     languages: ['English', 'Manx'],
     population: 84497,
-    flag: 'https://restcountries.eu/data/imn.svg',
+    flag: 'https://countryflagsapi.com/svg/imn',
     currency: 'British pound',
   },
   {
@@ -892,7 +892,7 @@ export const countriesData = [
     capital: 'Jerusalem',
     languages: ['Hebrew (modern)', 'Arabic'],
     population: 8527400,
-    flag: 'https://restcountries.eu/data/isr.svg',
+    flag: 'https://countryflagsapi.com/svg/isr',
     currency: 'Israeli new shekel',
   },
   {
@@ -900,7 +900,7 @@ export const countriesData = [
     capital: 'Rome',
     languages: ['Italian'],
     population: 60665551,
-    flag: 'https://restcountries.eu/data/ita.svg',
+    flag: 'https://countryflagsapi.com/svg/ita',
     currency: 'Euro',
   },
   {
@@ -908,7 +908,7 @@ export const countriesData = [
     capital: 'Kingston',
     languages: ['English'],
     population: 2723246,
-    flag: 'https://restcountries.eu/data/jam.svg',
+    flag: 'https://countryflagsapi.com/svg/jam',
     currency: 'Jamaican dollar',
   },
   {
@@ -916,7 +916,7 @@ export const countriesData = [
     capital: 'Tokyo',
     languages: ['Japanese'],
     population: 126960000,
-    flag: 'https://restcountries.eu/data/jpn.svg',
+    flag: 'https://countryflagsapi.com/svg/jpn',
     currency: 'Japanese yen',
   },
   {
@@ -924,7 +924,7 @@ export const countriesData = [
     capital: 'Saint Helier',
     languages: ['English', 'French'],
     population: 100800,
-    flag: 'https://restcountries.eu/data/jey.svg',
+    flag: 'https://countryflagsapi.com/svg/jey',
     currency: 'British pound',
   },
   {
@@ -932,7 +932,7 @@ export const countriesData = [
     capital: 'Amman',
     languages: ['Arabic'],
     population: 9531712,
-    flag: 'https://restcountries.eu/data/jor.svg',
+    flag: 'https://countryflagsapi.com/svg/jor',
     currency: 'Jordanian dinar',
   },
   {
@@ -940,7 +940,7 @@ export const countriesData = [
     capital: 'Astana',
     languages: ['Kazakh', 'Russian'],
     population: 17753200,
-    flag: 'https://restcountries.eu/data/kaz.svg',
+    flag: 'https://countryflagsapi.com/svg/kaz',
     currency: 'Kazakhstani tenge',
   },
   {
@@ -948,7 +948,7 @@ export const countriesData = [
     capital: 'Nairobi',
     languages: ['English', 'Swahili'],
     population: 47251000,
-    flag: 'https://restcountries.eu/data/ken.svg',
+    flag: 'https://countryflagsapi.com/svg/ken',
     currency: 'Kenyan shilling',
   },
   {
@@ -956,7 +956,7 @@ export const countriesData = [
     capital: 'South Tarawa',
     languages: ['English'],
     population: 113400,
-    flag: 'https://restcountries.eu/data/kir.svg',
+    flag: 'https://countryflagsapi.com/svg/kir',
     currency: 'Australian dollar',
   },
   {
@@ -964,7 +964,7 @@ export const countriesData = [
     capital: 'Kuwait City',
     languages: ['Arabic'],
     population: 4183658,
-    flag: 'https://restcountries.eu/data/kwt.svg',
+    flag: 'https://countryflagsapi.com/svg/kwt',
     currency: 'Kuwaiti dinar',
   },
   {
@@ -972,7 +972,7 @@ export const countriesData = [
     capital: 'Bishkek',
     languages: ['Kyrgyz', 'Russian'],
     population: 6047800,
-    flag: 'https://restcountries.eu/data/kgz.svg',
+    flag: 'https://countryflagsapi.com/svg/kgz',
     currency: 'Kyrgyzstani som',
   },
   {
@@ -980,7 +980,7 @@ export const countriesData = [
     capital: 'Vientiane',
     languages: ['Lao'],
     population: 6492400,
-    flag: 'https://restcountries.eu/data/lao.svg',
+    flag: 'https://countryflagsapi.com/svg/lao',
     currency: 'Lao kip',
   },
   {
@@ -988,7 +988,7 @@ export const countriesData = [
     capital: 'Riga',
     languages: ['Latvian'],
     population: 1961600,
-    flag: 'https://restcountries.eu/data/lva.svg',
+    flag: 'https://countryflagsapi.com/svg/lva',
     currency: 'Euro',
   },
   {
@@ -996,7 +996,7 @@ export const countriesData = [
     capital: 'Beirut',
     languages: ['Arabic', 'French'],
     population: 5988000,
-    flag: 'https://restcountries.eu/data/lbn.svg',
+    flag: 'https://countryflagsapi.com/svg/lbn',
     currency: 'Lebanese pound',
   },
   {
@@ -1004,7 +1004,7 @@ export const countriesData = [
     capital: 'Maseru',
     languages: ['English', 'Southern Sotho'],
     population: 1894194,
-    flag: 'https://restcountries.eu/data/lso.svg',
+    flag: 'https://countryflagsapi.com/svg/lso',
     currency: 'Lesotho loti',
   },
   {
@@ -1012,7 +1012,7 @@ export const countriesData = [
     capital: 'Monrovia',
     languages: ['English'],
     population: 4615000,
-    flag: 'https://restcountries.eu/data/lbr.svg',
+    flag: 'https://countryflagsapi.com/svg/lbr',
     currency: 'Liberian dollar',
   },
   {
@@ -1020,7 +1020,7 @@ export const countriesData = [
     capital: 'Tripoli',
     languages: ['Arabic'],
     population: 6385000,
-    flag: 'https://restcountries.eu/data/lby.svg',
+    flag: 'https://countryflagsapi.com/svg/lby',
     currency: 'Libyan dinar',
   },
   {
@@ -1028,7 +1028,7 @@ export const countriesData = [
     capital: 'Vaduz',
     languages: ['German'],
     population: 37623,
-    flag: 'https://restcountries.eu/data/lie.svg',
+    flag: 'https://countryflagsapi.com/svg/lie',
     currency: 'Swiss franc',
   },
   {
@@ -1036,7 +1036,7 @@ export const countriesData = [
     capital: 'Vilnius',
     languages: ['Lithuanian'],
     population: 2872294,
-    flag: 'https://restcountries.eu/data/ltu.svg',
+    flag: 'https://countryflagsapi.com/svg/ltu',
     currency: 'Euro',
   },
   {
@@ -1044,7 +1044,7 @@ export const countriesData = [
     capital: 'Luxembourg',
     languages: ['French', 'German', 'Luxembourgish'],
     population: 576200,
-    flag: 'https://restcountries.eu/data/lux.svg',
+    flag: 'https://countryflagsapi.com/svg/lux',
     currency: 'Euro',
   },
   {
@@ -1052,7 +1052,7 @@ export const countriesData = [
     capital: '',
     languages: ['Chinese', 'Portuguese'],
     population: 649100,
-    flag: 'https://restcountries.eu/data/mac.svg',
+    flag: 'https://countryflagsapi.com/svg/mac',
     currency: 'Macanese pataca',
   },
   {
@@ -1060,7 +1060,7 @@ export const countriesData = [
     capital: 'Skopje',
     languages: ['Macedonian'],
     population: 2058539,
-    flag: 'https://restcountries.eu/data/mkd.svg',
+    flag: 'https://countryflagsapi.com/svg/mkd',
     currency: 'Macedonian denar',
   },
   {
@@ -1068,7 +1068,7 @@ export const countriesData = [
     capital: 'Antananarivo',
     languages: ['French', 'Malagasy'],
     population: 22434363,
-    flag: 'https://restcountries.eu/data/mdg.svg',
+    flag: 'https://countryflagsapi.com/svg/mdg',
     currency: 'Malagasy ariary',
   },
   {
@@ -1076,7 +1076,7 @@ export const countriesData = [
     capital: 'Lilongwe',
     languages: ['English', 'Chichewa'],
     population: 16832910,
-    flag: 'https://restcountries.eu/data/mwi.svg',
+    flag: 'https://countryflagsapi.com/svg/mwi',
     currency: 'Malawian kwacha',
   },
   {
@@ -1084,7 +1084,7 @@ export const countriesData = [
     capital: 'Kuala Lumpur',
     languages: ['Malaysian'],
     population: 31405416,
-    flag: 'https://restcountries.eu/data/mys.svg',
+    flag: 'https://countryflagsapi.com/svg/mys',
     currency: 'Malaysian ringgit',
   },
   {
@@ -1092,7 +1092,7 @@ export const countriesData = [
     capital: 'Malé',
     languages: ['Divehi'],
     population: 344023,
-    flag: 'https://restcountries.eu/data/mdv.svg',
+    flag: 'https://countryflagsapi.com/svg/mdv',
     currency: 'Maldivian rufiyaa',
   },
   {
@@ -1100,7 +1100,7 @@ export const countriesData = [
     capital: 'Bamako',
     languages: ['French'],
     population: 18135000,
-    flag: 'https://restcountries.eu/data/mli.svg',
+    flag: 'https://countryflagsapi.com/svg/mli',
     currency: 'West African CFA franc',
   },
   {
@@ -1108,7 +1108,7 @@ export const countriesData = [
     capital: 'Valletta',
     languages: ['Maltese', 'English'],
     population: 425384,
-    flag: 'https://restcountries.eu/data/mlt.svg',
+    flag: 'https://countryflagsapi.com/svg/mlt',
     currency: 'Euro',
   },
   {
@@ -1116,7 +1116,7 @@ export const countriesData = [
     capital: 'Majuro',
     languages: ['English', 'Marshallese'],
     population: 54880,
-    flag: 'https://restcountries.eu/data/mhl.svg',
+    flag: 'https://countryflagsapi.com/svg/mhl',
     currency: 'United States dollar',
   },
   {
@@ -1124,7 +1124,7 @@ export const countriesData = [
     capital: 'Fort-de-France',
     languages: ['French'],
     population: 378243,
-    flag: 'https://restcountries.eu/data/mtq.svg',
+    flag: 'https://countryflagsapi.com/svg/mtq',
     currency: 'Euro',
   },
   {
@@ -1132,7 +1132,7 @@ export const countriesData = [
     capital: 'Nouakchott',
     languages: ['Arabic'],
     population: 3718678,
-    flag: 'https://restcountries.eu/data/mrt.svg',
+    flag: 'https://countryflagsapi.com/svg/mrt',
     currency: 'Mauritanian ouguiya',
   },
   {
@@ -1140,7 +1140,7 @@ export const countriesData = [
     capital: 'Port Louis',
     languages: ['English'],
     population: 1262879,
-    flag: 'https://restcountries.eu/data/mus.svg',
+    flag: 'https://countryflagsapi.com/svg/mus',
     currency: 'Mauritian rupee',
   },
   {
@@ -1148,7 +1148,7 @@ export const countriesData = [
     capital: 'Mamoudzou',
     languages: ['French'],
     population: 226915,
-    flag: 'https://restcountries.eu/data/myt.svg',
+    flag: 'https://countryflagsapi.com/svg/myt',
     currency: 'Euro',
   },
   {
@@ -1156,7 +1156,7 @@ export const countriesData = [
     capital: 'Mexico City',
     languages: ['Spanish'],
     population: 122273473,
-    flag: 'https://restcountries.eu/data/mex.svg',
+    flag: 'https://countryflagsapi.com/svg/mex',
     currency: 'Mexican peso',
   },
   {
@@ -1164,7 +1164,7 @@ export const countriesData = [
     capital: 'Palikir',
     languages: ['English'],
     population: 102800,
-    flag: 'https://restcountries.eu/data/fsm.svg',
+    flag: 'https://countryflagsapi.com/svg/fsm',
     currency: '[D]',
   },
   {
@@ -1172,7 +1172,7 @@ export const countriesData = [
     capital: 'Chișinău',
     languages: ['Romanian'],
     population: 3553100,
-    flag: 'https://restcountries.eu/data/mda.svg',
+    flag: 'https://countryflagsapi.com/svg/mda',
     currency: 'Moldovan leu',
   },
   {
@@ -1180,7 +1180,7 @@ export const countriesData = [
     capital: 'Monaco',
     languages: ['French'],
     population: 38400,
-    flag: 'https://restcountries.eu/data/mco.svg',
+    flag: 'https://countryflagsapi.com/svg/mco',
     currency: 'Euro',
   },
   {
@@ -1188,7 +1188,7 @@ export const countriesData = [
     capital: 'Ulan Bator',
     languages: ['Mongolian'],
     population: 3093100,
-    flag: 'https://restcountries.eu/data/mng.svg',
+    flag: 'https://countryflagsapi.com/svg/mng',
     currency: 'Mongolian tögrög',
   },
   {
@@ -1196,7 +1196,7 @@ export const countriesData = [
     capital: 'Podgorica',
     languages: ['Serbian', 'Bosnian', 'Albanian', 'Croatian'],
     population: 621810,
-    flag: 'https://restcountries.eu/data/mne.svg',
+    flag: 'https://countryflagsapi.com/svg/mne',
     currency: 'Euro',
   },
   {
@@ -1204,7 +1204,7 @@ export const countriesData = [
     capital: 'Plymouth',
     languages: ['English'],
     population: 4922,
-    flag: 'https://restcountries.eu/data/msr.svg',
+    flag: 'https://countryflagsapi.com/svg/msr',
     currency: 'East Caribbean dollar',
   },
   {
@@ -1212,7 +1212,7 @@ export const countriesData = [
     capital: 'Rabat',
     languages: ['Arabic'],
     population: 33337529,
-    flag: 'https://restcountries.eu/data/mar.svg',
+    flag: 'https://countryflagsapi.com/svg/mar',
     currency: 'Moroccan dirham',
   },
   {
@@ -1220,7 +1220,7 @@ export const countriesData = [
     capital: 'Maputo',
     languages: ['Portuguese'],
     population: 26423700,
-    flag: 'https://restcountries.eu/data/moz.svg',
+    flag: 'https://countryflagsapi.com/svg/moz',
     currency: 'Mozambican metical',
   },
   {
@@ -1228,7 +1228,7 @@ export const countriesData = [
     capital: 'Naypyidaw',
     languages: ['Burmese'],
     population: 51419420,
-    flag: 'https://restcountries.eu/data/mmr.svg',
+    flag: 'https://countryflagsapi.com/svg/mmr',
     currency: 'Burmese kyat',
   },
   {
@@ -1236,7 +1236,7 @@ export const countriesData = [
     capital: 'Windhoek',
     languages: ['English', 'Afrikaans'],
     population: 2324388,
-    flag: 'https://restcountries.eu/data/nam.svg',
+    flag: 'https://countryflagsapi.com/svg/nam',
     currency: 'Namibian dollar',
   },
   {
@@ -1244,7 +1244,7 @@ export const countriesData = [
     capital: 'Yaren',
     languages: ['English', 'Nauruan'],
     population: 10084,
-    flag: 'https://restcountries.eu/data/nru.svg',
+    flag: 'https://countryflagsapi.com/svg/nru',
     currency: 'Australian dollar',
   },
   {
@@ -1252,7 +1252,7 @@ export const countriesData = [
     capital: 'Kathmandu',
     languages: ['Nepali'],
     population: 28431500,
-    flag: 'https://restcountries.eu/data/npl.svg',
+    flag: 'https://countryflagsapi.com/svg/npl',
     currency: 'Nepalese rupee',
   },
   {
@@ -1260,7 +1260,7 @@ export const countriesData = [
     capital: 'Amsterdam',
     languages: ['Dutch'],
     population: 17019800,
-    flag: 'https://restcountries.eu/data/nld.svg',
+    flag: 'https://countryflagsapi.com/svg/nld',
     currency: 'Euro',
   },
   {
@@ -1268,7 +1268,7 @@ export const countriesData = [
     capital: 'Nouméa',
     languages: ['French'],
     population: 268767,
-    flag: 'https://restcountries.eu/data/ncl.svg',
+    flag: 'https://countryflagsapi.com/svg/ncl',
     currency: 'CFP franc',
   },
   {
@@ -1276,7 +1276,7 @@ export const countriesData = [
     capital: 'Wellington',
     languages: ['English', 'Māori'],
     population: 4697854,
-    flag: 'https://restcountries.eu/data/nzl.svg',
+    flag: 'https://countryflagsapi.com/svg/nzl',
     currency: 'New Zealand dollar',
   },
   {
@@ -1284,7 +1284,7 @@ export const countriesData = [
     capital: 'Managua',
     languages: ['Spanish'],
     population: 6262703,
-    flag: 'https://restcountries.eu/data/nic.svg',
+    flag: 'https://countryflagsapi.com/svg/nic',
     currency: 'Nicaraguan córdoba',
   },
   {
@@ -1292,7 +1292,7 @@ export const countriesData = [
     capital: 'Niamey',
     languages: ['French'],
     population: 20715000,
-    flag: 'https://restcountries.eu/data/ner.svg',
+    flag: 'https://countryflagsapi.com/svg/ner',
     currency: 'West African CFA franc',
   },
   {
@@ -1300,7 +1300,7 @@ export const countriesData = [
     capital: 'Abuja',
     languages: ['English'],
     population: 186988000,
-    flag: 'https://restcountries.eu/data/nga.svg',
+    flag: 'https://countryflagsapi.com/svg/nga',
     currency: 'Nigerian naira',
   },
   {
@@ -1308,7 +1308,7 @@ export const countriesData = [
     capital: 'Alofi',
     languages: ['English'],
     population: 1470,
-    flag: 'https://restcountries.eu/data/niu.svg',
+    flag: 'https://countryflagsapi.com/svg/niu',
     currency: 'New Zealand dollar',
   },
   {
@@ -1316,7 +1316,7 @@ export const countriesData = [
     capital: 'Kingston',
     languages: ['English'],
     population: 2302,
-    flag: 'https://restcountries.eu/data/nfk.svg',
+    flag: 'https://countryflagsapi.com/svg/nfk',
     currency: 'Australian dollar',
   },
   {
@@ -1324,7 +1324,7 @@ export const countriesData = [
     capital: 'Pyongyang',
     languages: ['Korean'],
     population: 25281000,
-    flag: 'https://restcountries.eu/data/prk.svg',
+    flag: 'https://countryflagsapi.com/svg/prk',
     currency: 'North Korean won',
   },
   {
@@ -1332,7 +1332,7 @@ export const countriesData = [
     capital: 'Saipan',
     languages: ['English', 'Chamorro'],
     population: 56940,
-    flag: 'https://restcountries.eu/data/mnp.svg',
+    flag: 'https://countryflagsapi.com/svg/mnp',
     currency: 'United States dollar',
   },
   {
@@ -1340,7 +1340,7 @@ export const countriesData = [
     capital: 'Oslo',
     languages: ['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk'],
     population: 5223256,
-    flag: 'https://restcountries.eu/data/nor.svg',
+    flag: 'https://countryflagsapi.com/svg/nor',
     currency: 'Norwegian krone',
   },
   {
@@ -1348,7 +1348,7 @@ export const countriesData = [
     capital: 'Muscat',
     languages: ['Arabic'],
     population: 4420133,
-    flag: 'https://restcountries.eu/data/omn.svg',
+    flag: 'https://countryflagsapi.com/svg/omn',
     currency: 'Omani rial',
   },
   {
@@ -1356,7 +1356,7 @@ export const countriesData = [
     capital: 'Islamabad',
     languages: ['English', 'Urdu'],
     population: 194125062,
-    flag: 'https://restcountries.eu/data/pak.svg',
+    flag: 'https://countryflagsapi.com/svg/pak',
     currency: 'Pakistani rupee',
   },
   {
@@ -1364,7 +1364,7 @@ export const countriesData = [
     capital: 'Ngerulmud',
     languages: ['English'],
     population: 17950,
-    flag: 'https://restcountries.eu/data/plw.svg',
+    flag: 'https://countryflagsapi.com/svg/plw',
     currency: '[E]',
   },
   {
@@ -1372,7 +1372,7 @@ export const countriesData = [
     capital: 'Ramallah',
     languages: ['Arabic'],
     population: 4682467,
-    flag: 'https://restcountries.eu/data/pse.svg',
+    flag: 'https://countryflagsapi.com/svg/pse',
     currency: 'Israeli new sheqel',
   },
   {
@@ -1380,7 +1380,7 @@ export const countriesData = [
     capital: 'Panama City',
     languages: ['Spanish'],
     population: 3814672,
-    flag: 'https://restcountries.eu/data/pan.svg',
+    flag: 'https://countryflagsapi.com/svg/pan',
     currency: 'Panamanian balboa',
   },
   {
@@ -1388,7 +1388,7 @@ export const countriesData = [
     capital: 'Port Moresby',
     languages: ['English'],
     population: 8083700,
-    flag: 'https://restcountries.eu/data/png.svg',
+    flag: 'https://countryflagsapi.com/svg/png',
     currency: 'Papua New Guinean kina',
   },
   {
@@ -1396,7 +1396,7 @@ export const countriesData = [
     capital: 'Asunción',
     languages: ['Spanish', 'Guaraní'],
     population: 6854536,
-    flag: 'https://restcountries.eu/data/pry.svg',
+    flag: 'https://countryflagsapi.com/svg/pry',
     currency: 'Paraguayan guaraní',
   },
   {
@@ -1404,7 +1404,7 @@ export const countriesData = [
     capital: 'Lima',
     languages: ['Spanish'],
     population: 31488700,
-    flag: 'https://restcountries.eu/data/per.svg',
+    flag: 'https://countryflagsapi.com/svg/per',
     currency: 'Peruvian sol',
   },
   {
@@ -1412,7 +1412,7 @@ export const countriesData = [
     capital: 'Manila',
     languages: ['English'],
     population: 103279800,
-    flag: 'https://restcountries.eu/data/phl.svg',
+    flag: 'https://countryflagsapi.com/svg/phl',
     currency: 'Philippine peso',
   },
   {
@@ -1420,7 +1420,7 @@ export const countriesData = [
     capital: 'Adamstown',
     languages: ['English'],
     population: 56,
-    flag: 'https://restcountries.eu/data/pcn.svg',
+    flag: 'https://countryflagsapi.com/svg/pcn',
     currency: 'New Zealand dollar',
   },
   {
@@ -1428,7 +1428,7 @@ export const countriesData = [
     capital: 'Warsaw',
     languages: ['Polish'],
     population: 38437239,
-    flag: 'https://restcountries.eu/data/pol.svg',
+    flag: 'https://countryflagsapi.com/svg/pol',
     currency: 'Polish złoty',
   },
   {
@@ -1436,7 +1436,7 @@ export const countriesData = [
     capital: 'Lisbon',
     languages: ['Portuguese'],
     population: 10374822,
-    flag: 'https://restcountries.eu/data/prt.svg',
+    flag: 'https://countryflagsapi.com/svg/prt',
     currency: 'Euro',
   },
   {
@@ -1444,7 +1444,7 @@ export const countriesData = [
     capital: 'San Juan',
     languages: ['Spanish', 'English'],
     population: 3474182,
-    flag: 'https://restcountries.eu/data/pri.svg',
+    flag: 'https://countryflagsapi.com/svg/pri',
     currency: 'United States dollar',
   },
   {
@@ -1452,7 +1452,7 @@ export const countriesData = [
     capital: 'Doha',
     languages: ['Arabic'],
     population: 2587564,
-    flag: 'https://restcountries.eu/data/qat.svg',
+    flag: 'https://countryflagsapi.com/svg/qat',
     currency: 'Qatari riyal',
   },
   {
@@ -1460,7 +1460,7 @@ export const countriesData = [
     capital: 'Pristina',
     languages: ['Albanian', 'Serbian'],
     population: 1733842,
-    flag: 'https://restcountries.eu/data/kos.svg',
+    flag: 'https://countryflagsapi.com/svg/kos',
     currency: 'Euro',
   },
   {
@@ -1468,7 +1468,7 @@ export const countriesData = [
     capital: 'Saint-Denis',
     languages: ['French'],
     population: 840974,
-    flag: 'https://restcountries.eu/data/reu.svg',
+    flag: 'https://countryflagsapi.com/svg/reu',
     currency: 'Euro',
   },
   {
@@ -1476,7 +1476,7 @@ export const countriesData = [
     capital: 'Bucharest',
     languages: ['Romanian'],
     population: 19861408,
-    flag: 'https://restcountries.eu/data/rou.svg',
+    flag: 'https://countryflagsapi.com/svg/rou',
     currency: 'Romanian leu',
   },
   {
@@ -1484,7 +1484,7 @@ export const countriesData = [
     capital: 'Moscow',
     languages: ['Russian'],
     population: 146599183,
-    flag: 'https://restcountries.eu/data/rus.svg',
+    flag: 'https://countryflagsapi.com/svg/rus',
     currency: 'Russian ruble',
   },
   {
@@ -1492,7 +1492,7 @@ export const countriesData = [
     capital: 'Kigali',
     languages: ['Kinyarwanda', 'English', 'French'],
     population: 11553188,
-    flag: 'https://restcountries.eu/data/rwa.svg',
+    flag: 'https://countryflagsapi.com/svg/rwa',
     currency: 'Rwandan franc',
   },
   {
@@ -1500,7 +1500,7 @@ export const countriesData = [
     capital: 'Gustavia',
     languages: ['French'],
     population: 9417,
-    flag: 'https://restcountries.eu/data/blm.svg',
+    flag: 'https://countryflagsapi.com/svg/blm',
     currency: 'Euro',
   },
   {
@@ -1508,7 +1508,7 @@ export const countriesData = [
     capital: 'Jamestown',
     languages: ['English'],
     population: 4255,
-    flag: 'https://restcountries.eu/data/shn.svg',
+    flag: 'https://countryflagsapi.com/svg/shn',
     currency: 'Saint Helena pound',
   },
   {
@@ -1516,7 +1516,7 @@ export const countriesData = [
     capital: 'Basseterre',
     languages: ['English'],
     population: 46204,
-    flag: 'https://restcountries.eu/data/kna.svg',
+    flag: 'https://countryflagsapi.com/svg/kna',
     currency: 'East Caribbean dollar',
   },
   {
@@ -1524,7 +1524,7 @@ export const countriesData = [
     capital: 'Castries',
     languages: ['English'],
     population: 186000,
-    flag: 'https://restcountries.eu/data/lca.svg',
+    flag: 'https://countryflagsapi.com/svg/lca',
     currency: 'East Caribbean dollar',
   },
   {
@@ -1532,7 +1532,7 @@ export const countriesData = [
     capital: 'Marigot',
     languages: ['English', 'French', 'Dutch'],
     population: 36979,
-    flag: 'https://restcountries.eu/data/maf.svg',
+    flag: 'https://countryflagsapi.com/svg/maf',
     currency: 'Euro',
   },
   {
@@ -1540,7 +1540,7 @@ export const countriesData = [
     capital: 'Saint-Pierre',
     languages: ['French'],
     population: 6069,
-    flag: 'https://restcountries.eu/data/spm.svg',
+    flag: 'https://countryflagsapi.com/svg/spm',
     currency: 'Euro',
   },
   {
@@ -1548,7 +1548,7 @@ export const countriesData = [
     capital: 'Kingstown',
     languages: ['English'],
     population: 109991,
-    flag: 'https://restcountries.eu/data/vct.svg',
+    flag: 'https://countryflagsapi.com/svg/vct',
     currency: 'East Caribbean dollar',
   },
   {
@@ -1556,7 +1556,7 @@ export const countriesData = [
     capital: 'Apia',
     languages: ['Samoan', 'English'],
     population: 194899,
-    flag: 'https://restcountries.eu/data/wsm.svg',
+    flag: 'https://countryflagsapi.com/svg/wsm',
     currency: 'Samoan tālā',
   },
   {
@@ -1564,7 +1564,7 @@ export const countriesData = [
     capital: 'City of San Marino',
     languages: ['Italian'],
     population: 33005,
-    flag: 'https://restcountries.eu/data/smr.svg',
+    flag: 'https://countryflagsapi.com/svg/smr',
     currency: 'Euro',
   },
   {
@@ -1572,7 +1572,7 @@ export const countriesData = [
     capital: 'São Tomé',
     languages: ['Portuguese'],
     population: 187356,
-    flag: 'https://restcountries.eu/data/stp.svg',
+    flag: 'https://countryflagsapi.com/svg/stp',
     currency: 'São Tomé and Príncipe dobra',
   },
   {
@@ -1580,7 +1580,7 @@ export const countriesData = [
     capital: 'Riyadh',
     languages: ['Arabic'],
     population: 32248200,
-    flag: 'https://restcountries.eu/data/sau.svg',
+    flag: 'https://countryflagsapi.com/svg/sau',
     currency: 'Saudi riyal',
   },
   {
@@ -1588,7 +1588,7 @@ export const countriesData = [
     capital: 'Dakar',
     languages: ['French'],
     population: 14799859,
-    flag: 'https://restcountries.eu/data/sen.svg',
+    flag: 'https://countryflagsapi.com/svg/sen',
     currency: 'West African CFA franc',
   },
   {
@@ -1596,7 +1596,7 @@ export const countriesData = [
     capital: 'Belgrade',
     languages: ['Serbian'],
     population: 7076372,
-    flag: 'https://restcountries.eu/data/srb.svg',
+    flag: 'https://countryflagsapi.com/svg/srb',
     currency: 'Serbian dinar',
   },
   {
@@ -1604,7 +1604,7 @@ export const countriesData = [
     capital: 'Victoria',
     languages: ['French', 'English'],
     population: 91400,
-    flag: 'https://restcountries.eu/data/syc.svg',
+    flag: 'https://countryflagsapi.com/svg/syc',
     currency: 'Seychellois rupee',
   },
   {
@@ -1612,7 +1612,7 @@ export const countriesData = [
     capital: 'Freetown',
     languages: ['English'],
     population: 7075641,
-    flag: 'https://restcountries.eu/data/sle.svg',
+    flag: 'https://countryflagsapi.com/svg/sle',
     currency: 'Sierra Leonean leone',
   },
   {
@@ -1620,7 +1620,7 @@ export const countriesData = [
     capital: 'Singapore',
     languages: ['English', 'Malay', 'Tamil', 'Chinese'],
     population: 5535000,
-    flag: 'https://restcountries.eu/data/sgp.svg',
+    flag: 'https://countryflagsapi.com/svg/sgp',
     currency: 'Brunei dollar',
   },
   {
@@ -1628,7 +1628,7 @@ export const countriesData = [
     capital: 'Philipsburg',
     languages: ['Dutch', 'English'],
     population: 38247,
-    flag: 'https://restcountries.eu/data/sxm.svg',
+    flag: 'https://countryflagsapi.com/svg/sxm',
     currency: 'Netherlands Antillean guilder',
   },
   {
@@ -1636,7 +1636,7 @@ export const countriesData = [
     capital: 'Bratislava',
     languages: ['Slovak'],
     population: 5426252,
-    flag: 'https://restcountries.eu/data/svk.svg',
+    flag: 'https://countryflagsapi.com/svg/svk',
     currency: 'Euro',
   },
   {
@@ -1644,7 +1644,7 @@ export const countriesData = [
     capital: 'Ljubljana',
     languages: ['Slovene'],
     population: 2064188,
-    flag: 'https://restcountries.eu/data/svn.svg',
+    flag: 'https://countryflagsapi.com/svg/svn',
     currency: 'Euro',
   },
   {
@@ -1652,7 +1652,7 @@ export const countriesData = [
     capital: 'Honiara',
     languages: ['English'],
     population: 642000,
-    flag: 'https://restcountries.eu/data/slb.svg',
+    flag: 'https://countryflagsapi.com/svg/slb',
     currency: 'Solomon Islands dollar',
   },
   {
@@ -1660,7 +1660,7 @@ export const countriesData = [
     capital: 'Mogadishu',
     languages: ['Somali', 'Arabic'],
     population: 11079000,
-    flag: 'https://restcountries.eu/data/som.svg',
+    flag: 'https://countryflagsapi.com/svg/som',
     currency: 'Somali shilling',
   },
   {
@@ -1679,7 +1679,7 @@ export const countriesData = [
       'Zulu',
     ],
     population: 55653654,
-    flag: 'https://restcountries.eu/data/zaf.svg',
+    flag: 'https://countryflagsapi.com/svg/zaf',
     currency: 'South African rand',
   },
   {
@@ -1687,7 +1687,7 @@ export const countriesData = [
     capital: 'King Edward Point',
     languages: ['English'],
     population: 30,
-    flag: 'https://restcountries.eu/data/sgs.svg',
+    flag: 'https://countryflagsapi.com/svg/sgs',
     currency: 'British pound',
   },
   {
@@ -1695,7 +1695,7 @@ export const countriesData = [
     capital: 'Seoul',
     languages: ['Korean'],
     population: 50801405,
-    flag: 'https://restcountries.eu/data/kor.svg',
+    flag: 'https://countryflagsapi.com/svg/kor',
     currency: 'South Korean won',
   },
   {
@@ -1703,7 +1703,7 @@ export const countriesData = [
     capital: 'Juba',
     languages: ['English'],
     population: 12131000,
-    flag: 'https://restcountries.eu/data/ssd.svg',
+    flag: 'https://countryflagsapi.com/svg/ssd',
     currency: 'South Sudanese pound',
   },
   {
@@ -1711,7 +1711,7 @@ export const countriesData = [
     capital: 'Madrid',
     languages: ['Spanish'],
     population: 46438422,
-    flag: 'https://restcountries.eu/data/esp.svg',
+    flag: 'https://countryflagsapi.com/svg/esp',
     currency: 'Euro',
   },
   {
@@ -1719,7 +1719,7 @@ export const countriesData = [
     capital: 'Colombo',
     languages: ['Sinhalese', 'Tamil'],
     population: 20966000,
-    flag: 'https://restcountries.eu/data/lka.svg',
+    flag: 'https://countryflagsapi.com/svg/lka',
     currency: 'Sri Lankan rupee',
   },
   {
@@ -1727,7 +1727,7 @@ export const countriesData = [
     capital: 'Khartoum',
     languages: ['Arabic', 'English'],
     population: 39598700,
-    flag: 'https://restcountries.eu/data/sdn.svg',
+    flag: 'https://countryflagsapi.com/svg/sdn',
     currency: 'Sudanese pound',
   },
   {
@@ -1735,7 +1735,7 @@ export const countriesData = [
     capital: 'Paramaribo',
     languages: ['Dutch'],
     population: 541638,
-    flag: 'https://restcountries.eu/data/sur.svg',
+    flag: 'https://countryflagsapi.com/svg/sur',
     currency: 'Surinamese dollar',
   },
   {
@@ -1743,7 +1743,7 @@ export const countriesData = [
     capital: 'Longyearbyen',
     languages: ['Norwegian'],
     population: 2562,
-    flag: 'https://restcountries.eu/data/sjm.svg',
+    flag: 'https://countryflagsapi.com/svg/sjm',
     currency: 'Norwegian krone',
   },
   {
@@ -1751,7 +1751,7 @@ export const countriesData = [
     capital: 'Lobamba',
     languages: ['English', 'Swati'],
     population: 1132657,
-    flag: 'https://restcountries.eu/data/swz.svg',
+    flag: 'https://countryflagsapi.com/svg/swz',
     currency: 'Swazi lilangeni',
   },
   {
@@ -1759,7 +1759,7 @@ export const countriesData = [
     capital: 'Stockholm',
     languages: ['Swedish'],
     population: 9894888,
-    flag: 'https://restcountries.eu/data/swe.svg',
+    flag: 'https://countryflagsapi.com/svg/swe',
     currency: 'Swedish krona',
   },
   {
@@ -1767,7 +1767,7 @@ export const countriesData = [
     capital: 'Bern',
     languages: ['German', 'French', 'Italian'],
     population: 8341600,
-    flag: 'https://restcountries.eu/data/che.svg',
+    flag: 'https://countryflagsapi.com/svg/che',
     currency: 'Swiss franc',
   },
   {
@@ -1775,7 +1775,7 @@ export const countriesData = [
     capital: 'Damascus',
     languages: ['Arabic'],
     population: 18564000,
-    flag: 'https://restcountries.eu/data/syr.svg',
+    flag: 'https://countryflagsapi.com/svg/syr',
     currency: 'Syrian pound',
   },
   {
@@ -1783,7 +1783,7 @@ export const countriesData = [
     capital: 'Taipei',
     languages: ['Chinese'],
     population: 23503349,
-    flag: 'https://restcountries.eu/data/twn.svg',
+    flag: 'https://countryflagsapi.com/svg/twn',
     currency: 'New Taiwan dollar',
   },
   {
@@ -1791,7 +1791,7 @@ export const countriesData = [
     capital: 'Dushanbe',
     languages: ['Tajik', 'Russian'],
     population: 8593600,
-    flag: 'https://restcountries.eu/data/tjk.svg',
+    flag: 'https://countryflagsapi.com/svg/tjk',
     currency: 'Tajikistani somoni',
   },
   {
@@ -1799,7 +1799,7 @@ export const countriesData = [
     capital: 'Dodoma',
     languages: ['Swahili', 'English'],
     population: 55155000,
-    flag: 'https://restcountries.eu/data/tza.svg',
+    flag: 'https://countryflagsapi.com/svg/tza',
     currency: 'Tanzanian shilling',
   },
   {
@@ -1807,7 +1807,7 @@ export const countriesData = [
     capital: 'Bangkok',
     languages: ['Thai'],
     population: 65327652,
-    flag: 'https://restcountries.eu/data/tha.svg',
+    flag: 'https://countryflagsapi.com/svg/tha',
     currency: 'Thai baht',
   },
   {
@@ -1815,7 +1815,7 @@ export const countriesData = [
     capital: 'Dili',
     languages: ['Portuguese'],
     population: 1167242,
-    flag: 'https://restcountries.eu/data/tls.svg',
+    flag: 'https://countryflagsapi.com/svg/tls',
     currency: 'United States dollar',
   },
   {
@@ -1823,7 +1823,7 @@ export const countriesData = [
     capital: 'Lomé',
     languages: ['French'],
     population: 7143000,
-    flag: 'https://restcountries.eu/data/tgo.svg',
+    flag: 'https://countryflagsapi.com/svg/tgo',
     currency: 'West African CFA franc',
   },
   {
@@ -1831,7 +1831,7 @@ export const countriesData = [
     capital: 'Fakaofo',
     languages: ['English'],
     population: 1411,
-    flag: 'https://restcountries.eu/data/tkl.svg',
+    flag: 'https://countryflagsapi.com/svg/tkl',
     currency: 'New Zealand dollar',
   },
   {
@@ -1839,7 +1839,7 @@ export const countriesData = [
     capital: "Nuku'alofa",
     languages: ['English', 'Tonga (Tonga Islands)'],
     population: 103252,
-    flag: 'https://restcountries.eu/data/ton.svg',
+    flag: 'https://countryflagsapi.com/svg/ton',
     currency: 'Tongan paʻanga',
   },
   {
@@ -1847,7 +1847,7 @@ export const countriesData = [
     capital: 'Port of Spain',
     languages: ['English'],
     population: 1349667,
-    flag: 'https://restcountries.eu/data/tto.svg',
+    flag: 'https://countryflagsapi.com/svg/tto',
     currency: 'Trinidad and Tobago dollar',
   },
   {
@@ -1855,7 +1855,7 @@ export const countriesData = [
     capital: 'Tunis',
     languages: ['Arabic'],
     population: 11154400,
-    flag: 'https://restcountries.eu/data/tun.svg',
+    flag: 'https://countryflagsapi.com/svg/tun',
     currency: 'Tunisian dinar',
   },
   {
@@ -1863,7 +1863,7 @@ export const countriesData = [
     capital: 'Ankara',
     languages: ['Turkish'],
     population: 78741053,
-    flag: 'https://restcountries.eu/data/tur.svg',
+    flag: 'https://countryflagsapi.com/svg/tur',
     currency: 'Turkish lira',
   },
   {
@@ -1871,7 +1871,7 @@ export const countriesData = [
     capital: 'Ashgabat',
     languages: ['Turkmen', 'Russian'],
     population: 4751120,
-    flag: 'https://restcountries.eu/data/tkm.svg',
+    flag: 'https://countryflagsapi.com/svg/tkm',
     currency: 'Turkmenistan manat',
   },
   {
@@ -1879,7 +1879,7 @@ export const countriesData = [
     capital: 'Cockburn Town',
     languages: ['English'],
     population: 31458,
-    flag: 'https://restcountries.eu/data/tca.svg',
+    flag: 'https://countryflagsapi.com/svg/tca',
     currency: 'United States dollar',
   },
   {
@@ -1887,7 +1887,7 @@ export const countriesData = [
     capital: 'Funafuti',
     languages: ['English'],
     population: 10640,
-    flag: 'https://restcountries.eu/data/tuv.svg',
+    flag: 'https://countryflagsapi.com/svg/tuv',
     currency: 'Australian dollar',
   },
   {
@@ -1895,7 +1895,7 @@ export const countriesData = [
     capital: 'Kampala',
     languages: ['English', 'Swahili'],
     population: 33860700,
-    flag: 'https://restcountries.eu/data/uga.svg',
+    flag: 'https://countryflagsapi.com/svg/uga',
     currency: 'Ugandan shilling',
   },
   {
@@ -1903,7 +1903,7 @@ export const countriesData = [
     capital: 'Kiev',
     languages: ['Ukrainian'],
     population: 42692393,
-    flag: 'https://restcountries.eu/data/ukr.svg',
+    flag: 'https://countryflagsapi.com/svg/ukr',
     currency: 'Ukrainian hryvnia',
   },
   {
@@ -1911,7 +1911,7 @@ export const countriesData = [
     capital: 'Abu Dhabi',
     languages: ['Arabic'],
     population: 9856000,
-    flag: 'https://restcountries.eu/data/are.svg',
+    flag: 'https://countryflagsapi.com/svg/are',
     currency: 'United Arab Emirates dirham',
   },
   {
@@ -1919,7 +1919,7 @@ export const countriesData = [
     capital: 'London',
     languages: ['English'],
     population: 65110000,
-    flag: 'https://restcountries.eu/data/gbr.svg',
+    flag: 'https://countryflagsapi.com/svg/gbr',
     currency: 'British pound',
   },
   {
@@ -1927,7 +1927,7 @@ export const countriesData = [
     capital: 'Washington, D.C.',
     languages: ['English'],
     population: 323947000,
-    flag: 'https://restcountries.eu/data/usa.svg',
+    flag: 'https://countryflagsapi.com/svg/usa',
     currency: 'United States dollar',
   },
   {
@@ -1935,7 +1935,7 @@ export const countriesData = [
     capital: 'Montevideo',
     languages: ['Spanish'],
     population: 3480222,
-    flag: 'https://restcountries.eu/data/ury.svg',
+    flag: 'https://countryflagsapi.com/svg/ury',
     currency: 'Uruguayan peso',
   },
   {
@@ -1943,7 +1943,7 @@ export const countriesData = [
     capital: 'Tashkent',
     languages: ['Uzbek', 'Russian'],
     population: 31576400,
-    flag: 'https://restcountries.eu/data/uzb.svg',
+    flag: 'https://countryflagsapi.com/svg/uzb',
     currency: "Uzbekistani so'm",
   },
   {
@@ -1951,7 +1951,7 @@ export const countriesData = [
     capital: 'Port Vila',
     languages: ['Bislama', 'English', 'French'],
     population: 277500,
-    flag: 'https://restcountries.eu/data/vut.svg',
+    flag: 'https://countryflagsapi.com/svg/vut',
     currency: 'Vanuatu vatu',
   },
   {
@@ -1959,7 +1959,7 @@ export const countriesData = [
     capital: 'Caracas',
     languages: ['Spanish'],
     population: 31028700,
-    flag: 'https://restcountries.eu/data/ven.svg',
+    flag: 'https://countryflagsapi.com/svg/ven',
     currency: 'Venezuelan bolívar',
   },
   {
@@ -1967,7 +1967,7 @@ export const countriesData = [
     capital: 'Hanoi',
     languages: ['Vietnamese'],
     population: 92700000,
-    flag: 'https://restcountries.eu/data/vnm.svg',
+    flag: 'https://countryflagsapi.com/svg/vnm',
     currency: 'Vietnamese đồng',
   },
   {
@@ -1975,7 +1975,7 @@ export const countriesData = [
     capital: 'Mata-Utu',
     languages: ['French'],
     population: 11750,
-    flag: 'https://restcountries.eu/data/wlf.svg',
+    flag: 'https://countryflagsapi.com/svg/wlf',
     currency: 'CFP franc',
   },
   {
@@ -1983,7 +1983,7 @@ export const countriesData = [
     capital: 'El Aaiún',
     languages: ['Spanish'],
     population: 510713,
-    flag: 'https://restcountries.eu/data/esh.svg',
+    flag: 'https://countryflagsapi.com/svg/esh',
     currency: 'Moroccan dirham',
   },
   {
@@ -1991,7 +1991,7 @@ export const countriesData = [
     capital: "Sana'a",
     languages: ['Arabic'],
     population: 27478000,
-    flag: 'https://restcountries.eu/data/yem.svg',
+    flag: 'https://countryflagsapi.com/svg/yem',
     currency: 'Yemeni rial',
   },
   {
@@ -1999,7 +1999,7 @@ export const countriesData = [
     capital: 'Lusaka',
     languages: ['English'],
     population: 15933883,
-    flag: 'https://restcountries.eu/data/zmb.svg',
+    flag: 'https://countryflagsapi.com/svg/zmb',
     currency: 'Zambian kwacha',
   },
   {
@@ -2007,7 +2007,7 @@ export const countriesData = [
     capital: 'Harare',
     languages: ['English', 'Shona', 'Northern Ndebele'],
     population: 14240168,
-    flag: 'https://restcountries.eu/data/zwe.svg',
+    flag: 'https://countryflagsapi.com/svg/zwe',
     currency: 'Botswana pula',
   },
 ]
