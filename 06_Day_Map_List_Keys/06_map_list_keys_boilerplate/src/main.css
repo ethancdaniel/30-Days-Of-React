@@ -1,0 +1,16 @@
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 2px;
+    margin: 50px;
+}
+
+.color-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}

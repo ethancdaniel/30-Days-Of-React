@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom'
 
 import { countriesData } from './data/countries'
 import { tenMostHighestPopulations } from './data/ten_most_highest_populations'
+import './main.css'
 
 const countries = [
   { name: 'Finland', city: 'Helsinki' },
@@ -14,6 +15,14 @@ const countries = [
   { name: 'Norway', city: 'Oslo' },
   { name: 'Iceland', city: 'Reykjavík' },
 ]
+
+const genRandomColors = (numColors) => {
+  const res = []
+  for (let i = 0; i < numColors; i++) {
+    res.push('#' + Math.floor(Math.random() * 16777215).toString(16))
+  }
+  return res
+}
 
 // Country component
 const Country = ({ country: { name, city } }) => {
@@ -33,6 +42,22 @@ const Countries = ({ countries }) => {
   return <div>{countryList}</div>
 }
 
+const ColorContainer = ({color}) => {
+  const style = {
+    'background-color': color
+  }
+  return <div style={style} className='color-div'>
+    <p>{color}</p>
+  </div>
+}
+
+const HexColors = ({colors}) => {
+  const colorList = colors.map(color => (
+    <ColorContainer color={color} />
+  ))
+  return <div className='color-container'>{colorList}</div>
+}
+
 // The App, or the parent or the container component
 // Functional Component
 const App = () => {
@@ -41,6 +66,7 @@ const App = () => {
       <div>
         <h1>Countries List</h1>
         <Countries countries={countries} />
+        <HexColors colors={genRandomColors(30)} />
       </div>
     </div>
   )
