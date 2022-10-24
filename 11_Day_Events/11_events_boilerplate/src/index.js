@@ -1,12 +1,15 @@
 // index.js
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-
+import { DaysOfReact } from './components/DaysOfReact'
+import './main.css'
 class App extends Component {
   state = {
     firstName: '',
     message: '',
     key: '',
+    xPos: 0,
+    yPos: 0
   }
   handleClick = (e) => {
     // e gives an event object
@@ -45,6 +48,14 @@ class App extends Component {
       message: 'Using 30 Days Of React for commercial purpose is not allowed',
     })
   }
+
+  handleDaysEnter = e => {
+    this.setState({
+      // -500 so it doesn't go off-screen
+      xPos: Math.floor(Math.random() * (window.innerWidth - 500)),
+      yPos: Math.floor(Math.random() * (window.innerHeight - 500))
+    })
+  }
   render() {
     return (
       <div>
@@ -78,6 +89,7 @@ class App extends Component {
             <input type='submit' value='Submit' />
           </div>
         </form>
+        <DaysOfReact top={this.state.yPos} left={this.state.xPos} onMouseMove={this.handleDaysEnter} />
       </div>
     )
   }
