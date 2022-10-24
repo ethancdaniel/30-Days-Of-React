@@ -1,5 +1,5 @@
 // index.js
-
+// NOTE: Accidentally edited day 7 instead of day 8 files. Day 7 skipped. These are day 8 exercises.
 import React from 'react'
 import ReactDOM from 'react-dom'
 import asabenehImage from './images/asabeneh.jpg'
